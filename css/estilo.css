@@ -1,0 +1,276 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 1024px;
+}
+
+header {
+    width: 1024px;
+    height: 100px;
+    background-color: #137547;
+    display: flex; 
+    align-items: center;
+    margin: 0 auto; 
+}
+
+header a {
+    font-size: 14px; 
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+}
+
+header img {
+    position: relative;
+    left: 30px;
+    top: 10px;
+    width: 125px;
+    transition: 0.3s;
+}
+
+header img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.Referencias {
+    position: relative;
+    display: flex;
+    left: 220px; 
+    bottom: 50px;
+    gap: 45px; 
+}
+
+.Referencias div {
+    width: 145px;
+    height: 45px;
+    background-color: #09571A;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.Referencias div:hover {
+    transform: scale(1.1);
+    background-color: #32a94ced;
+}
+
+.Plantas img{
+    position: relative;
+    bottom: 60px;
+    right: 24px;
+
+    transition: 0.3s;
+}
+
+.Zombies img{
+    position: relative;
+    bottom: 480px;
+    left: 250px;
+
+    transition: 0.3s;
+}
+
+.contenido img:hover{
+    filter: brightness(1.15);
+}
+
+.Informacion{
+    position: relative;
+    width: 1024px;
+    height: 420px;
+    background-color: #66547F;
+    right: 20px;
+    bottom: 485px;
+}
+
+.Informacion img{
+    margin-top: 40px;
+}
+
+.Informacion h5{
+    padding: 35px;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: "Chewy", system-ui;
+    font-weight: lighter;
+    color: #F5F2FA;
+}
+
+.Carrusel{
+    width: 1024px;
+    height: 480px;
+    background-color: #F3F7EC;
+    position: relative;
+    right: 20px;
+    bottom: 490px;
+}
+
+
+
+
+
+.Juegos {
+    position: relative;
+    width: 80%;
+    max-width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 600px; 
+    top: 90px;
+    left: 100px;
+}
+
+.Portadas {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d; 
+}
+
+.carousel-item {
+    position: absolute;
+    width: 300px; 
+    text-align: center;
+    transition: all 0.5s; 
+    opacity: 0; 
+    z-index: 1;
+    pointer-events: none; 
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.carousel-caption {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #323724;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    opacity: 0; 
+    transition: opacity 0.5s;
+}
+
+
+.carousel-item.p-center {
+    width: 260px; 
+    opacity: 1;
+    z-index: 10;
+    transform: translateX(0) scale(1) translateZ(0px);
+    filter: blur(0);
+    pointer-events: auto; 
+}
+
+.carousel-item.p-center .carousel-caption {
+    opacity: 1; 
+}
+
+.carousel-item.p-left {
+    opacity: 1;
+    z-index: 5;
+    transform: translateX(-110%) scale(0.8) translateZ(-150px);
+    filter: blur(4px); 
+}
+
+.carousel-item.p-right {
+    opacity: 1;
+    z-index: 5;
+    transform: translateX(110%) scale(0.8) translateZ(-150px);
+    filter: blur(4px); 
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 50px;
+    color: #444; 
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+.carousel-btn:hover {
+    opacity: 1;
+}
+
+.carousel-btn.prev {
+    left: 20px;
+}
+
+.carousel-btn.next {
+    right: 20px;
+}
+
+
+
+footer {
+    background: #137547;
+    background: linear-gradient(180deg, rgba(19, 117, 71, 1) 48%, rgba(15, 100, 65, 1) 76%, rgba(12, 87, 60, 1) 97%);
+    padding: 30px 20px;
+    width: 1024px;
+    height: 190px;
+    bottom: 40px;
+    position: relative;
+}
+
+.footer-enlaces {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.footer-enlaces a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 450;
+    margin-top: 30px;
+
+    transition: 0.3s;
+}
+
+.footer-enlaces a:hover{
+    font-weight: 600;
+    color: #caffc5;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.footer-logos img {
+    height: 70px;
+    transition: 0.4s;
+}
+
+.footer-logos img:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}

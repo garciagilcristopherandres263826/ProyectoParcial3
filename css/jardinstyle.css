@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #6bff4e;
+}
+
+header {
+    background-color: #1B6B47;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.logo {
+    height: 70px;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+}
+
+.hamburguesa span {
+    display: block;
+    width: 45px;
+    height: 5px;
+    background-color: #7CD67C;
+    margin: 8px 0;
+}
+
+main {
+    padding: 20px 25px;
+}
+
+.seccion {
+    background-color: #00ffb0;
+    font-size: 72px;
+    text-align: center;
+}
+
+.contenedor-jardines {
+    display: flex;
+}
+
+.contenedor-jardines article {
+    background-color: #006b4b;
+    color: white;
+    font-size: 40px;
+    margin: 5vh;
+    flex: 1;
+    text-align: center;
+}
+
+.contenedor-jardines img {
+    padding: 10px;
+    width: 45vh;
+    height: auto;
+}
+
+.contenedor-plantas {
+    padding: 5vh;
+}
+
+.contenedor-plantas article {
+    padding: 10px;
+    margin: 10vh;
+    margin-bottom: 10px;
+}
+
+.contenedor-plantas img {
+    width: 20vh;
+    height: auto;
+    padding-left: 6vh;
+}
+
+.contenedor-plantas h4 {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.contenedor-plantas .dia {
+    display: flex;
+}
+
+.contenedor-plantas .noche {
+    display: flex;
+}
+
+.contenedor-plantas .piscina {
+    display: flex;
+}
+
+.contenedor-plantas .techo {
+    display: flex;
+}
+
+.contenedor-plantas .dia article {
+    flex: 1;
+    background-color: #00df43;
+}
+
+.contenedor-plantas .noche article {
+    flex: 1;
+    background-color: #090058;
+    color: white;
+}
+
+.contenedor-plantas .piscina article {
+    flex: 1;
+    background-color: #00df9c;
+}
+
+.contenedor-plantas .techo article {
+    flex: 1;
+    background-color: #583322;
+}
+
+.contenedor-tienda {
+    background-image: url(img/Tienda_de_dave.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 5vh;
+    padding-left: 55vh;
+}
+
+.contenedor-tienda article {
+    background-color: #5c00b3;
+    color: white;
+    padding: 10px;
+    padding-bottom: 50px;
+    margin: 10vh;
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contenedor-tienda img {
+    width: 20vh;
+    height: 20vh;
+    flex: 1;
+}
+
+footer {
+    background: linear-gradient(#1B6B47, #14804D);
+    padding: 30px 20px;
+}
+
+.footer-enlaces {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-enlaces a {
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+    text-align: center;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 25px;
+}
+
+.footer-logos img {
+    height: 40px;
+}
+
+@media (max-width: 500px) {
+
+    header {
+        height: 58px;
+        padding: 5px 10px;
+    }
+
+    .logo {
+        height: 45px;
+        left: 12px;
+    }
+
+    header nav {
+        margin: 25px;
+        width: calc(100% - 65px);
+        justify-content: space-around;
+        gap: 5px;
+    }
+
+    header nav a {
+        font-size: 50%;
+    }
+
+    .seccion {
+        font-size: 16px;
+    }
+
+    .contenedor-jardines article {
+        font-size: 8px;
+        margin: 2vh;
+        margin-bottom: 10px;
+    }
+
+    .contenedor-jardines img {
+        padding: 5px;
+        width: 12vh;
+        height: auto;
+    }
+
+    .contenedor-plantas {
+        padding: 1px;
+        margin: 0;
+    }
+
+    .contenedor-plantas::-webkit-scrollbar {
+        display: none;
+    }
+
+    .contenedor-plantas article {
+        padding: 0;
+        margin: 1vh;
+        margin-bottom: 2vh;
+    }
+
+    .contenedor-plantas img {
+        width: 10vh;
+        height: auto;
+        padding: 1vh;
+        padding-bottom: 0px;
+        padding-left: 1vh;
+    }
+
+    .contenedor-plantas h4 {
+        padding: 0;
+        font-size: 7px;
+        padding-bottom: 1vh;
+    }
+
+    .contenedor-tienda {
+        padding: 5vh;
+        padding-left: 8vh;
+    }
+
+    .contenedor-tienda article {
+        padding: 0;
+        padding-top: 2px;
+        margin: 2vh;
+        width: 12vh;
+        height: 12vh;
+        border-radius: 10px;
+        font-size: 8px;
+    }
+
+    .contenedor-tienda img {
+        width: 10vh;
+        height: 10vh;
+    }
+
+    footer {
+        padding: 20px 12px;
+    }
+
+    .footer-enlaces {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px 20px;
+    }
+
+    .footer-enlaces a {
+        font-size: 12px;
+    }
+
+    .footer-logos {
+        gap: 25px;
+        margin-top: 20px;
+    }
+
+    .footer-logos img {
+        height: 28px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 501px) {
+
+    header {
+        height: 72px;
+        padding: 8px 15px;
+    }
+
+    .logo {
+        height: 55px;
+        left: 25px;
+    }
+
+    header nav {
+        margin: 30px;
+        width: calc(100% - 110px);
+        justify-content: space-around;
+        gap: 15px;
+    }
+
+    header nav a {
+        font-size: 100%;
+    }
+
+    .seccion {
+        font-size: 32px;
+    }
+
+    .contenedor-jardines article {
+        font-size: 20px;
+        margin: 1vh;
+    }
+
+    .contenedor-jardines img {
+        padding: 10px;
+        width: 20vh;
+        height: auto;
+    }
+
+    .contenedor-plantas {
+        padding: 1vh;
+    }
+
+    .contenedor-plantas::-webkit-scrollbar {
+        display: none;
+    }
+
+    .contenedor-plantas article {
+        padding: 10px;
+        margin: 1vh;
+        margin-bottom: 10px;
+    }
+
+    .contenedor-plantas img {
+        width: 10vh;
+        height: auto;
+        padding-left: 3vh;
+    }
+
+    .contenedor-plantas h4 {
+        font-size: 15px;
+        text-align: center;
+        padding: 10px 5px;
+    }
+
+    .contenedor-tienda {
+        padding: 5vh;
+        padding-left: 12vh;
+    }
+
+    .contenedor-tienda article {
+        padding: 10px;
+        padding-bottom: 50px;
+        margin: 5vh;
+        width: 15vh;
+        height: 15vh;
+        border-radius: 25px;
+        font-size: 15px;
+    }
+
+    .contenedor-tienda img {
+        width: 10vh;
+        height: 10vh;
+    }
+
+    footer {
+        padding: 25px 15px;
+    }
+
+    .footer-enlaces {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px 25px;
+    }
+
+    .footer-enlaces a {
+        font-size: 13px;
+    }
+
+    .footer-logos {
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .footer-logos img {
+        height: 35px;
+    }
+}

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants Vs Zombies</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+
+    <style>
+        #parallax-container img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+ 
+        #parallax-container {
+            position: relative;
+            height: 70vh;
+            overflow: hidden;
+        }
+ 
+        #layer1 {
+            /*Debe de tenerlo cada imagen*/position: absolute;
+            z-index: 1;
+            /* El más bajo el del fondo*/
+            background-image: url('img/Early_day_HD.jpg');
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+ 
+       
+        #layer2 {
+            position: absolute;
+            /*Debe de tenerlo cada imagen para ver el órden de las capas*/z-index: 3;
+            /* Medio */
+            top: 140px;
+            left: 190px;
+        }
+ 
+       
+        #layer3 {
+            position: absolute;
+            /* El más alto */
+            z-index: 5;
+            margin-top: 100px;
+            top: 0;
+            left: 150px;
+            width: 8%;
+            height: 30%;
+        }
+ 
+       
+        #layer4 {
+            position: absolute;
+            z-index: 5;
+            /* El más alto */
+            margin-top: 180px;
+            top: 0;
+            left: 800px;
+            width: 8%;
+            height: 30%;
+        }
+
+        #layer5 {
+            position: absolute;
+            /* El más bajo */
+            z-index: 6;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 240%;
+        }
+
+        #layer6 {
+            position: absolute;
+            /*Debe de tenerlo cada imagen para ver el órden de las capas*/z-index: 3;
+            /* Medio */
+            top: 300px;
+            left: 260px;
+            width: 120px;
+        }
+
+        #layer7 {
+            position: absolute;
+            z-index: 5;
+            /* El más alto */
+            margin-top: 250px;
+            top: 0;
+            left: 400px;
+            width: 8%;
+            height: 30%;
+        }
+
+        #layer8 {
+            position: absolute;
+            z-index: 5;
+            /* El más alto */
+            margin-top: 65px;
+            top: 0;
+            left: 620px;
+            width: 8%;
+            height: 30%;
+        }
+
+        #layer9 {
+            position: absolute;
+            /*Debe de tenerlo cada imagen para ver el órden de las capas*/z-index: 3;
+            /* Medio */
+            top: 30px;
+            left: 695px;
+            width: 120px;
+        }
+
+        #layer0 {
+            position: absolute;
+            /*Debe de tenerlo cada imagen para ver el órden de las capas*/z-index: 3;
+            /* Medio */
+            top: 225px;
+            left: 555px;
+        }
+ 
+        .completo {
+            width: 100%;
+            height: 50%;
+        }
+ 
+        /* --- Contenido (Debajo del Parallax) --- */
+        .contenido {
+            padding: 50px 20px;
+            background-color: #2c6829;
+            text-align: center;
+            height: 1200px;
+        }
+    </style>
+
+</head>
+<body>
+    
+        <header>
+        <img src="img/PvZLogo.webp" alt="Logotipo de Plantas Vs Zombies">
+        <div class="Referencias">
+            <div><a href="aventura.html">Modo Aventura</a></div>
+            <div><a href="minijuegos.html">Minijuegos</a></div>
+            <div><a href="jardinzen.html">Jardín Zen</a></div>
+            <div><a href="plantas.html">Plantas & Zombies</a></div>
+        </div>
+    </header>
+
+ 
+    <div id="parallax-container">
+ 
+        <div id="layer1"></div>
+ 
+        <div id="layer2">
+            <img src="img/Sunflower.png" width="110px">
+        </div>
+ 
+        <div id="layer3">
+            <img class="completo" src="img/Sun.webp">
+        </div>
+ 
+        <div id="layer4">
+            <img class="completo" src="img/Sun.webp">
+        </div>
+
+        <div id="layer5">
+            <img class="completo" src="img/Pngtreegreen plant shrub element_4722990.png">
+        </div>
+
+        <div id="layer6">
+            <img class="completo" src="img/Peashooter.png">
+        </div>
+
+        <div id="layer7">
+            <img class="completo" src="img/Sun.webp">
+        </div>
+
+        <div id="layer8">
+            <img class="completo" src="img/Sun.webp">
+        </div>
+
+        <div id="layer9">
+            <img class="completo" src="img/Peashooter.png">
+        </div>
+
+        <div id="layer0">
+            <img src="img/Sunflower.png" width="110px">
+        </div>
+ 
+    </div>
+ 
+    <section class="contenido">
+       
+        <div class="Plantas">
+        <img src="img/Plantas.png" alt="" height="420px" width="1015px">
+        </div>
+        <div class="Zombies">
+        <img src="img/Zombis.png" alt="" height="409px">
+        </div>
+
+        <div class="Informacion">
+            <img src="img/Logo 2.png" alt="">
+            <h5>Plantas contra Zombis es un videojuego de defensa de torres desarrollado y publicado por PopCap Games. Lanzado inicialmente para Windows y Mac OS, se ha adaptado desde entonces a consolas, videoconsolas portatiles y dispositivos moviles. El jugador asume el papel de un propietario en medio de una epidemia de muertos vivientes. 
+<br>El jugador elige un número limitado de especies de plantas mediante paquetes de semillas al comienzo de cada fase.
+<br><br>A medida que una horda de zombis se acerca por varias vías paralelas, debe defender su casa al colocar plantas u hongos que disparan proyectiles, les causan algún otro tipo de daño o ayudan.</h5>
+        </div>
+
+        <div class="Carrusel">
+
+
+            <div class="Juegos">
+        
+        <button class="carousel-btn prev" id="prevBtn">&#10094;</button>
+
+        <div class="Portadas">
+            
+            <div class="carousel-item p-left">
+                <img src="img/PvZReplanted.jpg" alt="PvZ Replanted">
+                <p class="carousel-caption">PLANTAS CONTRA ZOMBIS REPLANTED</p>
+            </div>
+
+            <div class="carousel-item p-center active">
+                <img src="img/PlantsvsZombiesCover.jpg" alt="Plants vs Zombies">
+                <p class="carousel-caption">PLANTAS CONTRA ZOMBIS</p>
+            </div>
+
+            <div class="carousel-item p-right">
+                <img src="img/PvZ2.jpg" alt="PvZ 2">
+                <p class="carousel-caption">PLANTAS CONTRA ZOMBIS 2</p>
+            </div>
+
+
+        </div>
+
+        <button class="carousel-btn next" id="nextBtn">&#10095;</button>
+    </div>
+
+
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <nav class="footer-enlaces">
+            <a href="index.html">Inicio</a>
+            <a href="plantas.html">Plantas y Zombis</a>
+            <a href="aventura.html">Modo Aventura</a>
+            <a href="minijuegos.html">Minijuegos</a>
+            <a href="jardinzen.html">Jardín Zen</a>
+            <a href="#">Videojuegos</a>
+            <a href="#">Desarrolladores</a>
+        </nav>
+
+        <div class="footer-logos">
+            <img src="img/ea.png" alt="Electronic Arts">
+            <img src="img/popcap.png" alt="PopCap Games">
+        </div>
+    </footer>
+ 
+    <script>
+       
+        document.addEventListener('DOMContentLoaded', function () {
+           
+            const container = document.getElementById('parallax-container');
+            const layer1 = document.getElementById('layer1');
+            const layer2 = document.getElementById('layer2');
+            const layer3 = document.getElementById('layer3');
+            const layer4 = document.getElementById('layer4');
+            const layer5 = document.getElementById('layer5');
+            const layer6 = document.getElementById('layer6');
+            const layer7 = document.getElementById('layer7');
+            const layer8 = document.getElementById('layer8');
+            const layer9 = document.getElementById('layer9');
+            const layer0 = document.getElementById('layer0');
+ 
+            //Definimos las velocidades de desplazamiento
+            const speed1 = -0.1; // El fondo se mueve más rápido
+            const speed2 = -0.1;
+            const speed3 = -0.5; // El frente se mueve más lento
+            const speed4 = -0.6; // El frente se mueve más lento
+            const speed5 = 0.2; // El frente se mueve más lento
+            const speed6 = -0.1; // El frente se mueve más lento
+            const speed7 = -0.4; // El frente se mueve más lento
+            const speed8 = -0.7; // El frente se mueve más lento
+            const speed9 = -0.1; // El frente se mueve más lento
+            const speed0 = -0.1; // El frente se mueve más lento
+ 
+             function updateParallax() {
+                // Es para que obtengamos la posición de scroll del elemento contenedor (respecto al top de la ventana)
+                const scrollOffset = container.getBoundingClientRect().top;
+ 
+                // Multiplicamos el desplazamiento por la velocidad de cada capa
+ 
+                layer1.style.transform = `translate3d(0, ${scrollOffset * speed1}px, 0)`;
+ 
+                layer2.style.transform = `translate3d(0, ${scrollOffset * speed2}px, 0)`;
+ 
+                layer3.style.transform = `translate3d(0, ${scrollOffset * speed3}px, 0)`;
+ 
+                layer4.style.transform = `translate3d(0, ${scrollOffset * speed4}px, 0)`;
+
+                layer5.style.transform = `translate3d(0, ${scrollOffset * speed5}px, 0)`;
+
+                layer6.style.transform = `translate3d(0, ${scrollOffset * speed6}px, 0)`;
+
+                layer7.style.transform = `translate3d(0, ${scrollOffset * speed7}px, 0)`;
+
+                layer8.style.transform = `translate3d(0, ${scrollOffset * speed8}px, 0)`;
+
+                layer9.style.transform = `translate3d(0, ${scrollOffset * speed9}px, 0)`;
+
+                layer0.style.transform = `translate3d(0, ${scrollOffset * speed0}px, 0)`;
+ 
+            }
+ 
+            //Agregamos el listener para el evento
+           window.addEventListener('scroll', updateParallax);
+ 
+           
+            updateParallax();
+        });
+
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+    const track = document.querySelector('.Portadas');
+    const items = Array.from(track.children);
+    const nextBtn = document.getElementById('nextBtn');
+    const prevBtn = document.getElementById('prevBtn');
+
+    let currentIndex = 1; 
+
+    function updateCarousel() {
+        items.forEach((item, index) => {
+
+            item.classList.remove('p-left', 'p-center', 'p-right', 'active');
+
+            if (index === currentIndex) {
+                item.classList.add('p-center', 'active');
+            } else if (index === (currentIndex - 1 + items.length) % items.length) {
+                item.classList.add('p-left');
+            } else if (index === (currentIndex + 1) % items.length) {
+                item.classList.add('p-right');
+            }
+        });
+    }
+
+    nextBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % items.length;
+        updateCarousel();
+    });
+
+    prevBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex - 1 + items.length) % items.length;
+        updateCarousel();
+    });
+
+    updateCarousel();
+});
+    </script>
+</body>
+ 
+</html>
+
+</body>
+</html>

@@ -1,0 +1,2308 @@
+*{
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    width: 480px;
+    height: 120px;
+    background-color: #137547;
+    display: flex; 
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+  header{
+    width: 768px;
+    height: 100px;
+    background-color: #137547;
+    display: flex; 
+    align-items: center;
+  }
+}
+
+header img{
+    position: relative;
+    left: 10px;
+    width: 100px;
+
+    transition: 0.3s;
+}
+
+@media (min-width: 768px) {
+  header img{
+    position: relative;
+    left: 25px;
+    width: 125px;
+
+    transition: 0.3s;
+  }
+}
+
+
+header img:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+header a{
+    font-size: 10px; 
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+}
+
+@media (min-width: 768px) {
+    header a{
+    font-size: 12px; 
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+    }
+}
+
+.Referencias{
+    position: relative;
+    display: flex;
+    left: 20px; 
+    gap: 15px;
+    margin-left: 8px;  
+}
+
+@media (min-width: 768px){
+    .Referencias{
+    position: relative;
+    display: flex;
+    left: 20px; 
+    gap: 30px;
+    margin-left: 55px;  
+}
+}
+
+.Referencias div {
+    flex: 1;           
+    width: 70px;     
+    height: 40px;
+    background-color: #09571A;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.3s;
+}
+
+@media (min-width: 768px) {
+    .Referencias div{
+    flex: 1;           
+    width: 100px;     
+    height: 40px;
+    background-color: #09571A;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.3s;
+    }
+}
+
+.Referencias div:hover{
+    transform: scale(1.15);
+    background-color: #32a94ced;
+}
+
+.Informacion{
+    background-color: #756093;
+    width: 320px;
+    height: 185px;
+}
+
+@media (min-width: 768px) {
+    .Informacion{
+    background-color: #756093;
+    width: 500px;
+    height: 235px;
+    }
+}
+
+.Informacion h2{
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: white;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+
+@media (min-width: 768px) {
+    .Informacion h2{
+    margin-top: 30px;
+    margin-left: 12px;
+    margin-right: 8px;
+    color: white;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    }
+}
+
+.Informacion h5{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #E4D8F5;
+    font-family: "Chewy", system-ui;
+    font-weight: 200;
+}
+
+@media (min-width: 768px) {
+    .Informacion h5{
+    font-size: 15px;
+    margin-top: 28px;
+    margin-left: 12px;
+    margin-right: 8px;
+    color: #E4D8F5;
+    font-family: "Chewy", system-ui;
+    font-weight: 200;
+    }
+}
+
+.Info{
+    display: flex;
+}
+
+.Cel {
+    display: block;
+}
+
+.Tab {
+    display: none;
+}
+
+.Lap {
+    display: none;
+}
+
+@media (min-width: 768px){
+    .Cel  {
+    display: none;
+  }
+  
+  .Tab  {
+    display: block;
+  }
+
+  .Lap {
+    display: none;
+  }
+}
+
+
+
+
+.Dia{
+    width: 480px;
+    height: 600px;
+    background: #fdfeff;
+    background: linear-gradient(180deg, rgb(254, 254, 255) 20%, rgb(245, 255, 245) 62%);
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Product{
+    width: 428px;
+    height: 42px;
+    background-color: rgb(42, 108, 73);
+    margin: 15px;
+    border-radius: 2px;
+    top: 35px;
+    display: block;
+
+    position: relative;
+    overflow: hidden;
+
+    margin: 1.66%;
+}
+
+.Price1:hover{
+    top: 50px;
+    background-color: rgb(166, 152, 227);
+}
+
+.Dia2{
+    display: none;
+}
+
+.Plantas{
+    display: none;
+}
+
+.Noche2{
+    display: none;
+}
+
+.Plantas1{
+    display: none;
+}
+
+.Piscina2{
+    display: none;
+}
+
+.Plantas2{
+    display: none;
+}
+
+.Niebla2{
+    display: none;
+}
+
+.Plantas3{
+    display: none;
+}
+
+.Tejado2{
+    display: none;
+}
+
+.Plantas4{
+    display: none;
+}
+
+
+
+@media(min-width: 768px) {
+
+    .Dia{
+    width: 768px;
+    height: 615px;
+    background: #fdfeff;
+    background: linear-gradient(180deg, rgb(254, 254, 255) 20%, rgb(245, 255, 245) 62%);
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+
+    .Product {
+    display: none !important;
+    }
+
+    .Product1{
+        display: none !important;
+    }
+
+    .Product4{
+        display: none !important;
+    }
+
+    .Product5{
+        display: none !important;
+    }
+
+    .Product6{
+        display: none !important;
+    }
+
+    .Product7{
+        display: none !important;
+    }
+
+    .Product8{
+        display: none !important;
+    }
+
+    .Product9{
+        display: none !important;
+    }
+
+
+    .Dia2 {
+      display: block;
+      position: relative;
+      width: 455px;
+      height: 82px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: sans-serif;
+      bottom: 565px;
+      margin-left: 26px;
+    }
+
+    .PriceTab {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; 
+      height: 100%;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      
+      transform: translateX(-89%); 
+      transition: transform 0.7s; 
+    }
+
+    .Dia2:hover .PriceTab {
+      transform: translateX(0); 
+    }
+
+    .Dia2 p{
+    font-size: 12px;
+    margin-left: -15px;
+    color: rgb(50, 72, 46);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    }
+
+    .PriceTab h2{
+    margin-left: 405px;
+    bottom: 52px;
+    position: relative;
+    font-size: 45px;
+    color: #5B8755;
+    }
+
+    .Dia2 h3{
+    margin-right: 85px;
+    font-family: "Lexend", sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    }   
+
+
+    .Plantas {
+    display: block;
+    width: 220px;
+    overflow: hidden;
+    transition: 0.6s;
+    max-height: 82px; 
+    left: 515px;
+    bottom: 647px;
+    position: relative;
+    }
+
+    .Plantas h2{
+    color: rgb(50, 72, 46);
+    text-align: center;
+    font-family: "Chewy", system-ui;
+    font-weight: 100;
+    padding: 6px;
+    font-size: 18px;
+    margin-top: 5px;
+    }
+
+    .ProductTab {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: -8px;
+    }
+
+    .ProductTab img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(179, 208, 154);
+    border-radius: 4px;
+    background: white;
+    }
+
+    .Plantas:hover {
+    max-height: 150px;
+    }
+
+
+    .Product2 {
+    display: none !important;
+    }
+
+    .Product3{
+        display: none !important;
+    }
+
+    .Noche2 {
+      display: block;
+      position: relative;
+      width: 455px;
+      height: 82px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: sans-serif;
+      bottom: 1125px;
+      margin-left: 26px;
+    }
+
+    .PriceTab1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; 
+      height: 100%;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      
+      transform: translateX(-89%); 
+      transition: transform 0.7s; 
+    }
+
+    .Noche2:hover .PriceTab1 {
+      transform: translateX(0); 
+    }
+
+    .Noche2 p{
+    font-size: 12px;
+    margin-left: -15px;
+    color: rgb(41, 33, 53);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    }
+
+    .PriceTab1 h2{
+    margin-left: 405px;
+    bottom: 40px;
+    position: relative;
+    font-size: 45px;
+    color: #514674;
+    }
+
+    .Noche2 h3{
+    margin-right: 15px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    }   
+
+
+    .Plantas1 {
+    display: block;
+    width: 220px;
+    overflow: hidden;
+    transition: 0.6s;
+    max-height: 82px; 
+    left: 515px;
+    bottom: 1205px;
+    position: relative;
+    }
+
+    .Plantas1 h2{
+    color: rgb(41, 33, 53);
+    text-align: center;
+    font-family: "Chewy", system-ui;
+    font-weight: 100;
+    padding: 6px;
+    font-size: 18px;
+    margin-top: 5px;
+    }
+
+    .ProductTab1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: -8px;
+    }
+
+    .ProductTab1 img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(123, 119, 165);
+    border-radius: 4px;
+    background: white;
+    }
+
+    .Plantas1:hover {
+    max-height: 150px;
+    }
+
+
+    .Piscina2 {
+      display: block;
+      position: relative;
+      width: 455px;
+      height: 82px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: sans-serif;
+      bottom: 1680px;
+      margin-left: 26px;
+    }
+
+    .PriceTab2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; 
+      height: 100%;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      
+      transform: translateX(-89%); 
+      transition: transform 0.7s; 
+    }
+
+    .Piscina2:hover .PriceTab2 {
+      transform: translateX(0); 
+    }
+
+    .Piscina2 p{
+    font-size: 12px;
+    margin-left: -15px;
+    color: rgb(50, 72, 46);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    }
+
+    .PriceTab2 h2{
+    margin-left: 405px;
+    bottom: 40px;
+    position: relative;
+    font-size: 45px;
+    color: #5B8755;
+    }
+
+    .Piscina2 h3{
+    margin-right: 5px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    }   
+
+
+    .Plantas2 {
+    display: block;
+    width: 220px;
+    overflow: hidden;
+    transition: 0.6s;
+    max-height: 82px; 
+    left: 515px;
+    bottom: 1763px;
+    position: relative;
+    }
+
+    .Plantas2 h2{
+    color: rgb(50, 72, 46);
+    text-align: center;
+    font-family: "Chewy", system-ui;
+    font-weight: 100;
+    padding: 6px;
+    font-size: 18px;
+    margin-top: 5px;
+    }
+
+    .ProductTab2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: -8px;
+    }
+
+    .ProductTab2 img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(179, 208, 154);
+    border-radius: 4px;
+    background: white;
+    }
+
+    .Plantas2:hover {
+    max-height: 150px;
+    }
+
+
+    .Niebla2 {
+      display: block;
+      position: relative;
+      width: 455px;
+      height: 82px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: sans-serif;
+      bottom: 2235px;
+      margin-left: 26px;
+    }
+
+    .PriceTab3 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; 
+      height: 100%;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      
+      transform: translateX(-89%); 
+      transition: transform 0.7s; 
+    }
+
+    .Niebla2:hover .PriceTab3 {
+      transform: translateX(0); 
+    }
+
+    .Niebla2 p{
+    font-size: 12px;
+    margin-left: -15px;
+    color: rgb(41, 33, 53);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    }
+
+    .PriceTab3 h2{
+    margin-left: 405px;
+    bottom: 40px;
+    position: relative;
+    font-size: 45px;
+    color: #514674;
+    }
+
+    .Niebla2 h3{
+    margin-right: 5px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    }   
+
+
+    .Plantas3 {
+    display: block;
+    width: 220px;
+    overflow: hidden;
+    transition: 0.6s;
+    max-height: 82px; 
+    left: 515px;
+    bottom: 2317px;
+    position: relative;
+    }
+
+    .Plantas3 h2{
+    color: rgb(41, 33, 53);
+    text-align: center;
+    font-family: "Chewy", system-ui;
+    font-weight: 100;
+    padding: 6px;
+    font-size: 18px;
+    margin-top: 5px;
+    }
+
+    .ProductTab3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: -8px;
+    }
+
+    .ProductTab3 img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(123, 119, 165);
+    border-radius: 4px;
+    background: white;
+    }
+
+    .Plantas3:hover {
+    max-height: 150px;
+    }
+
+
+    .Tejado2 {
+      display: block;
+      position: relative;
+      width: 455px;
+      height: 82px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: sans-serif;
+      bottom: 2785px;
+      margin-left: 26px;
+    }
+
+    .PriceTab4 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; 
+      height: 100%;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      
+      transform: translateX(-89%); 
+      transition: transform 0.7s; 
+    }
+
+    .Tejado2:hover .PriceTab4 {
+      transform: translateX(0); 
+    }
+
+    .Tejado2 p{
+    font-size: 12px;
+    margin-left: -15px;
+    color: rgb(50, 72, 46);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    }
+
+    .PriceTab4 h2{
+    margin-left: 405px;
+    bottom: 50px;
+    position: relative;
+    font-size: 45px;
+    color: #5B8755;
+    }
+
+    .Tejado2 h3{
+    margin-right: 3px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    }   
+
+
+    .Plantas4 {
+    display: block;
+    width: 220px;
+    overflow: hidden;
+    transition: 0.6s;
+    max-height: 82px; 
+    left: 515px;
+    bottom: 2867px;
+    position: relative;
+    }
+
+    .Plantas4 h2{
+    color: rgb(50, 72, 46);
+    text-align: center;
+    font-family: "Chewy", system-ui;
+    font-weight: 100;
+    padding: 6px;
+    font-size: 18px;
+    margin-top: 5px;
+    }
+
+    .ProductTab4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: -8px;
+    }
+
+    .ProductTab4 img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(179, 208, 154);
+    border-radius: 4px;
+    background: white;
+    }
+
+    .Plantas4:hover {
+    max-height: 150px;
+    }
+}
+
+
+.Product p{
+    font-size: 11px;
+    margin-top: 4px;
+    margin-left: 4px;
+    color: #edffeb;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.Product1{
+    width: 428px;
+    height: 42px;
+    background-color: rgb(42, 108, 73);
+    margin: 15px;
+    border-radius: 2px;
+    bottom: 223px;
+
+    position: relative;
+    overflow: hidden;
+
+    margin: 1.66%;
+}
+
+.Price{
+    width: 428px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+
+    transition: .5s;
+}
+
+.Price h3{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: -24px;
+    font-family: "Lexend", sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+.Price h2{
+    margin-left: 203px;
+    bottom: 10px;
+    position: relative;
+    font-size: 26px;
+    color: white;
+}
+
+.Price p{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.Price:hover{
+    top: 50px;
+    background-color: rgb(166, 152, 227);
+}
+
+
+.Price1{
+    width: 428px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+
+    transition: .5s;
+}
+
+.Price1 h3{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: -24px;
+    font-family: "Lexend", sans-serif;
+    color: rgb(50, 72, 46);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Chewy", system-ui;
+}
+
+.Price1 h2{
+    margin-left: 203px;
+    bottom: 10px;
+    position: relative;
+    font-size: 26px;
+    color: #5B8755;
+}
+
+.Price1 p{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.Product1 img{
+    margin-top: 3px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border: 1px solid rgb(179, 208, 154);
+    border-radius: 5px;
+}
+
+.Product1 img:first-child{
+    margin-left: 5px;
+}
+
+
+
+
+
+
+.Noche{
+    width: 480px;
+    height: 500px;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Product2{
+    width: 428px;
+    height: 42px;
+    background-color: rgb(65, 42, 108);
+    margin: 15px;
+    border-radius: 2px;
+    bottom: 470px;
+
+    position: relative;
+    overflow: hidden;
+
+    margin: 1.66%;
+}
+
+.Product2 p{
+    font-size: 11px;
+    margin-top: 4px;
+    margin-left: 4px;
+    color: #f0ebff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.Product3{
+    width: 428px;
+    height: 42px;
+    background-color: rgb(65, 42, 108);
+    margin: 15px;
+    border-radius: 2px;
+    bottom: 678px;
+
+    position: relative;
+    overflow: hidden;
+
+    margin: 1.66%;
+}
+
+.Price2{
+    width: 428px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+
+    transition: .5s;
+}
+
+.Price2 h3{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: -24px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+.Price2 h2{
+    margin-left: 203px;
+    bottom: 10px;
+    position: relative;
+    font-size: 26px;
+    color: white;
+}
+
+.Price2 p{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.Price2:hover{
+    top: 50px;
+    background-color: rgb(166, 152, 227);
+}
+
+
+.Price3{
+    width: 428px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+
+    transition: .5s;
+}
+
+.Price3 h3{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: -24px;
+    color: rgb(41, 33, 53);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "Chewy", system-ui;
+}
+
+.Price3 h2{
+    margin-left: 203px;
+    bottom: 10px;
+    position: relative;
+    font-size: 26px;
+    color: #514674;
+}
+
+.Price3 p{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.Price3:hover{
+    top: 50px;
+    background-color: rgb(166, 152, 227);
+}
+
+.Product3 img{
+    margin-top: 3px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border: 1px solid rgb(123, 119, 165);
+    border-radius: 5px;
+}
+
+.Product3 img:first-child{
+    margin-left: 5px;
+}
+
+
+
+
+.Piscina{
+    width: 480px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Product4{
+    width: 428px;
+    height: 42px;
+    background-color: rgb(42, 108, 73);
+    margin: 15px;
+    border-radius: 2px;
+    bottom: 875px;
+
+    position: relative;
+    overflow: hidden;
+
+    margin: 1.66%;
+}
+
+.Product4 p{
+    font-size: 11px;
+    margin-top: 4px;
+    margin-left: 4px;
+    color: #edffeb;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.Product5{
+    width: 428px;
+    height: 42px;
+    background-color: rgb(42, 108, 73);
+    margin: 15px;
+    border-radius: 2px;
+    bottom: 1083px;
+
+    position: relative;
+    overflow: hidden;
+
+    margin: 1.66%;
+}
+
+.Price4{
+    width: 428px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+
+    transition: .5s;
+}
+
+.Price4:hover{
+    top: 50px;
+    background-color: rgb(166, 152, 227);
+}
+
+.Price4 h3{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: -24px;
+    font-family: "Lexend", sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+.Price4 h2{
+    margin-left: 203px;
+    bottom: 10px;
+    position: relative;
+    font-size: 26px;
+    color: white;
+}
+
+.Price4 p{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+
+.Price5{
+    width: 428px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+
+    transition: .5s;
+}
+
+.Price5:hover{
+    top: 50px;
+    background-color: rgb(166, 152, 227);
+}
+
+.Price5 h3{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: -24px;
+    font-family: "Lexend", sans-serif;
+    color: rgb(50, 72, 46);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "Chewy", system-ui;
+}
+
+.Price5 h2{
+    margin-left: 203px;
+    bottom: 10px;
+    position: relative;
+    font-size: 26px;
+    color: #5B8755;
+}
+
+.Price5 p{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.Product5 img{
+    margin-top: 3px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border: 1px solid rgb(179, 208, 154);
+    border-radius: 5px;
+}
+
+.Product5 img:first-child{
+    margin-left: 5px;
+}
+
+
+
+
+
+.Niebla{
+    width: 480px;
+    height: 500px;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Product6{
+    width: 428px;
+    height: 42px;
+    background-color: rgb(65, 42, 108);
+    margin: 15px;
+    border-radius: 2px;
+    bottom: 1280px;
+
+    position: relative;
+    overflow: hidden;
+
+    margin: 1.66%;
+}
+
+.Product6 p{
+    font-size: 11px;
+    margin-top: 4px;
+    margin-left: 4px;
+    color: #f1ebff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.Product7{
+    width: 428px;
+    height: 42px;
+    background-color: rgb(65, 42, 108);
+    margin: 15px;
+    border-radius: 2px;
+    bottom: 1488px;
+
+    position: relative;
+    overflow: hidden;
+
+    margin: 1.66%;
+}
+
+.Price6{
+    width: 428px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+
+    transition: .5s;
+}
+
+.Price6:hover{
+    top: 50px;
+    background-color: rgb(166, 152, 227);
+}
+
+.Price6 h3{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: -24px;
+    font-family: "Lexend", sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+.Price6 h2{
+    margin-left: 203px;
+    bottom: 10px;
+    position: relative;
+    font-size: 26px;
+    color: white;
+}
+
+.Price6 p{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+
+.Price7{
+    width: 428px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+
+    transition: .5s;
+}
+
+.Price7:hover{
+    top: 50px;
+    background-color: rgb(166, 152, 227);
+}
+
+.Price7 h3{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: -24px;
+    font-family: "Lexend", sans-serif;
+    color: rgb(41, 33, 53);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "Chewy", system-ui;
+}
+
+.Price7 h2{
+    margin-left: 203px;
+    bottom: 10px;
+    position: relative;
+    font-size: 26px;
+    color: #514674;
+}
+
+.Price7 p{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.Product7 img{
+    margin-top: 3px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border: 1px solid rgb(123, 119, 165);
+    border-radius: 5px;
+}
+
+.Product7 img:first-child{
+    margin-left: 5px;
+}
+
+
+
+
+
+.Tejado{
+    width: 480px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Product8{
+    width: 428px;
+    height: 42px;
+    background-color: rgb(42, 108, 73);
+    margin: 15px;
+    border-radius: 2px;
+    bottom: 1685px;
+
+    position: relative;
+    overflow: hidden;
+
+    margin: 1.66%;
+}
+
+.Product8 p{
+    font-size: 11px;
+    margin-top: 4px;
+    margin-left: 4px;
+    color: #edffeb;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.Product9{
+    width: 428px;
+    height: 42px;
+    background-color: rgb(42, 108, 73);
+    margin: 15px;
+    border-radius: 2px;
+    bottom: 1893px;
+
+    position: relative;
+    overflow: hidden;
+
+    margin: 1.66%;
+}
+
+.Price8{
+    width: 428px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+
+    transition: .5s;
+}
+
+.Price8:hover{
+    top: 50px;
+    background-color: rgb(166, 152, 227);
+}
+
+.Price8 h3{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: -24px;
+    font-family: "Lexend", sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+.Price8 h2{
+    margin-left: 203px;
+    bottom: 10px;
+    position: relative;
+    font-size: 26px;
+    color: white;
+}
+
+.Price8 p{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+
+.Price9{
+    width: 428px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+
+    transition: .5s;
+}
+
+.Price9:hover{
+    top: 50px;
+    background-color: rgb(166, 152, 227);
+}
+
+.Price9 h3{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: -24px;
+    font-family: "Lexend", sans-serif;
+    color: rgb(50, 72, 46);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "Chewy", system-ui;
+}
+
+.Price9 h2{
+    margin-left: 203px;
+    bottom: 10px;
+    position: relative;
+    font-size: 26px;
+    color: #5B8755;
+}
+
+.Price9 p{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.Product9 img{
+    margin-top: 3px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border: 1px solid rgb(179, 208, 154);
+    border-radius: 5px;
+}
+
+.Product9 img:first-child{
+    margin-left: 5px;
+}
+
+
+footer {
+    background: #137547;
+    background: linear-gradient(180deg, rgba(19, 117, 71, 1) 48%, rgba(15, 100, 65, 1) 76%, rgba(12, 87, 60, 1) 97%);
+    padding: 30px 20px;
+    width: 440px;
+    height: 100px;
+    bottom: 2040px;
+    position: relative;
+}
+
+.footer-enlaces {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.footer-enlaces a {
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 450;
+
+    transition: 0.3s;
+}
+
+.footer-enlaces a:hover{
+    font-weight: 600;
+    color: #caffc5;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.footer-logos img {
+    height: 40px;
+    transition: 0.3s;
+}
+
+.footer-logos img:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+
+@media(min-width: 768px) {
+
+footer {
+    background: #137547;
+    background: linear-gradient(180deg, rgba(19, 117, 71, 1) 48%, rgba(15, 100, 65, 1) 76%, rgba(12, 87, 60, 1) 97%);
+    padding: 30px 20px;
+    width: 768px;
+    height: 120px;
+    bottom: 2825px;
+    position: relative;
+}
+
+.footer-enlaces {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.footer-enlaces a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 450;
+
+    transition: 0.3s;
+}
+
+.footer-enlaces a:hover{
+    font-weight: 600;
+    color: #caffc5;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.footer-logos img {
+    height: 55px;
+    transition: 0.4s;
+}
+
+.footer-logos img:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+}
+
+
+@media(min-width: 1024px) {
+
+    .Cel{
+        display: none;
+    }
+
+    .Tab{
+        display: none;
+    }
+    
+    .Lap{
+        display: block;
+    }
+
+
+    header{
+    width: 1024px;
+    height: 100px;
+    background-color: #137547;
+    display: flex; 
+    align-items: center;
+    }
+
+    header a{
+    font-size: 14px; 
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+    }
+
+    .Referencias{
+    position: relative;
+    display: flex;
+    left: 60px; 
+    gap: 50px;
+    margin-left: 55px;  
+    }
+
+    .Referencias div{
+    flex: 1;           
+    width: 130px;     
+    height: 45px;
+    background-color: #09571A;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.3s;
+    }
+
+    .Informacion{
+    background-color: #756093;
+    width: 665px;
+    height: 320px;
+    }
+
+    .Informacion h2{
+    margin-top: 35px;
+    margin-left: 12px;
+    margin-right: 8px;
+    color: white;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-size: 34px;
+    }
+
+    .Informacion h5{
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 12px;
+    margin-right: 8px;
+    color: #E4D8F5;
+    font-family: "Chewy", system-ui;
+    font-weight: 200;
+    }
+
+    .Dia{
+    width: 1024px;
+    height: 1200px;
+    background: #fdfeff;
+    background: linear-gradient(180deg, rgb(254, 254, 255) 20%, rgb(245, 255, 245) 62%);
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+
+
+    .Dia2 {
+      display: block;
+      position: relative;
+      width: 715px;
+      height: 120px;
+      background-image: url(Dia3.png) !important;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: sans-serif;
+      bottom: 1160px;
+      margin-left: 35px;
+    }
+
+    .PriceTab {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; 
+      height: 100%;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      
+      transform: translateX(-89%); 
+      transition: transform 0.7s; 
+    }
+
+    .Dia2:hover .PriceTab {
+      transform: translateX(0); 
+    }
+
+    .Dia2 p{
+    font-size: 18px;
+    padding: 10px;
+    margin-left: -15px;
+    color: rgb(50, 72, 46);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin-top: -10px;
+    }
+
+    .PriceTab h2{
+    margin-left: 650px;
+    bottom: 90px;
+    position: relative;
+    font-size: 82px;
+    color: #5B8755;
+    }
+
+    .Dia2 h3{
+    margin-right: 150px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    }   
+
+
+    .Plantas {
+    display: block;
+    width: 200px;
+    overflow: hidden;
+    transition: 0.6s;
+    max-height: 120px; 
+    left: 785px;
+    bottom: 1280px;
+    position: relative;
+    }
+
+    .Plantas h2{
+    color: rgb(50, 72, 46);
+    text-align: center;
+    font-family: "Chewy", system-ui;
+    font-weight: 100;
+    padding: 6px;
+    font-size: 18px;
+    margin-top: 5px;
+    }
+
+    .ProductTab {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: -8px;
+    }
+
+    .ProductTab img {
+    width: 55px;
+    height: 55px;
+    border: 1px solid rgb(179, 208, 154);
+    border-radius: 4px;
+    }
+
+    .Plantas:hover {
+    max-height: 230px;
+    }
+
+
+    .Noche2 {
+      display: block;
+      position: relative;
+      width: 715px;
+      height: 120px;
+      background-image: url(Noche3.png) !important;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: sans-serif;
+      bottom: 1745px;
+      margin-left: 35px;
+    }
+
+    .PriceTab1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; 
+      height: 100%;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      
+      transform: translateX(-89%); 
+      transition: transform 0.7s; 
+    }
+
+    .Noche2:hover .PriceTab1 {
+      transform: translateX(0); 
+    }
+
+    .Noche2 p{
+    font-size: 18px;
+    padding: 10px;
+    margin-left: -15px;
+    color: rgb(41, 33, 53);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    }
+
+    .PriceTab1 h2{
+    margin-left: 650px;
+    bottom: 80px;
+    position: relative;
+    font-size: 82px;
+    color: #514674;
+    }
+
+    .Noche2 h3{
+    margin-right: 40px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    }   
+
+
+    .Plantas1 {
+    display: block;
+    width: 200px;
+    overflow: hidden;
+    transition: 0.6s;
+    max-height: 120px; 
+    left: 785px;
+    bottom: 1865px;
+    position: relative;
+    }
+
+    .Plantas1 h2{
+    color: rgb(41, 33, 53);
+    text-align: center;
+    font-family: "Chewy", system-ui;
+    font-weight: 100;
+    padding: 6px;
+    font-size: 18px;
+    margin-top: 5px;
+    }
+
+    .ProductTab1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: -8px;
+    }
+
+    .ProductTab1 img {
+    width: 55px;
+    height: 55px;
+    border: 1px solid rgb(123, 119, 165);
+    border-radius: 4px;
+    }
+
+    .Plantas1:hover {
+    max-height: 230px;
+    }
+
+
+    .Piscina2 {
+      display: block;
+      position: relative;
+      width: 715px;
+      height: 120px;
+      background-image: url(Piscina3.png) !important;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: sans-serif;
+      bottom: 2325px;
+      margin-left: 35px;
+    }
+
+    .PriceTab2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; 
+      height: 100%;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      
+      transform: translateX(-89%); 
+      transition: transform 0.7s; 
+    }
+
+    .Piscina2:hover .PriceTab2 {
+      transform: translateX(0); 
+    }
+
+    .Piscina2 p{
+    font-size: 18px;
+    padding: 10px;
+    margin-left: -15px;
+    color: rgb(50, 72, 46);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin-top: -10px;
+    }
+
+    .PriceTab2 h2{
+    margin-left: 650px;
+    bottom: 70px;
+    position: relative;
+    font-size: 82px;
+    color: #5B8755;
+    }
+
+    .Piscina2 h3{
+    margin-right: 20px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    }   
+
+
+    .Plantas2 {
+    display: block;
+    width: 200px;
+    overflow: hidden;
+    transition: 0.6s;
+    max-height: 120px; 
+    left: 785px;
+    bottom: 2445px;
+    position: relative;
+    }
+
+    .Plantas2 h2{
+    color: rgb(50, 72, 46);
+    text-align: center;
+    font-family: "Chewy", system-ui;
+    font-weight: 100;
+    padding: 6px;
+    font-size: 18px;
+    margin-top: 5px;
+    }
+
+    .ProductTab2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: -8px;
+    }
+
+    .ProductTab2 img {
+    width: 55px;
+    height: 55px;
+    border: 1px solid rgb(179, 208, 154);
+    border-radius: 4px;
+    }
+
+    .Plantas2:hover {
+    max-height: 230px;
+    }
+
+
+    .Niebla2 {
+      display: block;
+      position: relative;
+      width: 715px;
+      height: 120px;
+      background-image: url(Niebla3.png) !important;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: sans-serif;
+      bottom: 2905px;
+      margin-left: 35px;
+    }
+
+    .PriceTab3 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; 
+      height: 100%;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      
+      transform: translateX(-89%); 
+      transition: transform 0.7s; 
+    }
+
+    .Niebla2:hover .PriceTab3 {
+      transform: translateX(0); 
+    }
+
+    .Niebla2 p{
+    font-size: 18px;
+    padding: 10px;
+    margin-left: -15px;
+    color: rgb(41, 33, 53);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    }
+
+    .PriceTab3 h2{
+    margin-left: 650px;
+    bottom: 80px;
+    position: relative;
+    font-size: 82px;
+    color: #514674;
+    }
+
+    .Niebla2 h3{
+    margin-right: 40px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    }   
+
+
+    .Plantas3 {
+    display: block;
+    width: 200px;
+    overflow: hidden;
+    transition: 0.6s;
+    max-height: 120px; 
+    left: 785px;
+    bottom: 3025px;
+    position: relative;
+    }
+
+    .Plantas3 h2{
+    color: rgb(41, 33, 53);
+    text-align: center;
+    font-family: "Chewy", system-ui;
+    font-weight: 100;
+    padding: 6px;
+    font-size: 18px;
+    margin-top: 5px;
+    }
+
+    .ProductTab3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: -8px;
+    }
+
+    .ProductTab3 img {
+    width: 55px;
+    height: 55px;
+    border: 1px solid rgb(123, 119, 165);
+    border-radius: 4px;
+    }
+
+    .Plantas3:hover {
+    max-height: 230px;
+    }
+
+
+    .Tejado2 {
+      display: block;
+      position: relative;
+      width: 715px;
+      height: 120px;
+      background-image: url(Tejado3.png) !important;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: sans-serif;
+      bottom: 3480px;
+      margin-left: 35px;
+    }
+
+    .PriceTab4 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; 
+      height: 100%;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      
+      transform: translateX(-89%); 
+      transition: transform 0.7s; 
+    }
+
+    .Tejado2:hover .PriceTab4 {
+      transform: translateX(0); 
+    }
+
+    .Tejado2 p{
+    font-size: 18px;
+    padding: 25px;
+    margin-left: -15px;
+    color: rgb(50, 72, 46);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin-top: -20px;
+    }
+
+    .PriceTab4 h2{
+    margin-left: 650px;
+    bottom: 105px;
+    position: relative;
+    font-size: 82px;
+    color: #5B8755;
+    }
+
+    .Tejado2 h3{
+    margin-right: 20px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    }   
+
+
+    .Plantas4 {
+    display: block;
+    width: 200px;
+    overflow: hidden;
+    transition: 0.6s;
+    max-height: 120px; 
+    left: 785px;
+    bottom: 3600px;
+    position: relative;
+    }
+
+    .Plantas4 h2{
+    color: rgb(50, 72, 46);
+    text-align: center;
+    font-family: "Chewy", system-ui;
+    font-weight: 100;
+    padding: 6px;
+    font-size: 18px;
+    margin-top: 5px;
+    }
+
+    .ProductTab4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: -8px;
+    }
+
+    .ProductTab4 img {
+    width: 55px;
+    height: 55px;
+    border: 1px solid rgb(179, 208, 154);
+    border-radius: 4px;
+    }
+
+    .Plantas4:hover {
+    max-height: 230px;
+    }
+
+
+    footer {
+    background: #137547;
+    background: linear-gradient(180deg, rgba(19, 117, 71, 1) 48%, rgba(15, 100, 65, 1) 76%, rgba(12, 87, 60, 1) 97%);
+    padding: 30px 20px;
+    width: 1024px;
+    height: 180px;
+    bottom: 3500px;
+    position: relative;
+}
+
+.footer-enlaces {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.footer-enlaces a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 450;
+
+    transition: 0.3s;
+}
+
+.footer-enlaces a:hover{
+    font-weight: 600;
+    color: #caffc5;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.footer-logos img {
+    height: 70px;
+    transition: 0.4s;
+}
+
+.footer-logos img:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+}
